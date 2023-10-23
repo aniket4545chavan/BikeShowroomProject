@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: unset;
+  list-style: none;
+  font-family: 'Poppins' !important;
+}
+
+form input {
+  display: block;
+  padding: 11px 15px;
+  outline: none;
+  border: none;
+  box-shadow:
+    1.2px 1.2px 2.2px rgba(0, 0, 0, 0.02),
+    -5.5px -5.5px 5.3px rgba(0, 0, 0, 0.028),
+    -12px -12px 10px rgba(0, 0, 0, 0.035),
+    -8.5px -8.5px 17.9px rgba(0, 0, 0, 0.042),
+    19.5px 19.5px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  margin: 1rem;
+  width: 400px;
+}
+
+.btnsVeh{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+.hotelAdding{
+  background: url("./assets/hotelImg\ \(2\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 4rem;
+}
